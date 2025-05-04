@@ -1,0 +1,5 @@
+
+> flat-earth-equipment@1.0.0 build-merchant-feed
+> node scripts/build-merchant-feed.js
+
+✅ Generated merchant feed with 1 products

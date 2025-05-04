@@ -1,0 +1,80 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Brand {
+  id    Int    @id @default(autoincrement())
+  name  String @unique
+  parts Part[]
+}
+
+model System {
+  id    Int    @id @default(autoincrement())
+  name  String @unique
+  parts Part[]
+}
+
+model Category {
+  id      Int       @id @default(autoincrement())
+  name    String    @unique
+  parts   Part[]
+  rentals Rental[]
+}
+
+model City {
+  id      Int       @id @default(autoincrement())
+  name    String
+  state   String
+  rentals Rental[]
+}
+
+model Part {
+  id          Int      @id @default(autoincrement())
+  sku         String   @unique
+  name        String
+  description String
+  price       Decimal  @db.Decimal(10,2)
+  brand       Brand    @relation(fields: [brandId], references: [id])
+  brandId     Int
+  system      System   @relation(fields: [systemId], references: [id])
+  systemId    Int
+  category    Category @relation(fields: [categoryId], references: [id])
+  categoryId  Int
+  slug        String   @unique
+}
+
+model Rental {
+  id          Int      @id @default(autoincrement())
+  name        String
+  description String
+  category    Category @relation(fields: [categoryId], references: [id])
+  categoryId  Int
+  city        City     @relation(fields: [cityId], references: [id])
+  cityId      Int
+  slug        String   @unique
+  listing     RentalListing?
+}
+
+model Vendor {
+  id        Int      @id @default(autoincrement())
+  name      String   @unique
+  website   String?
+  approved  Boolean  @default(false)
+  createdAt DateTime @default(now())
+}
+
+model RentalListing {
+  id            Int      @id @default(autoincrement())
+  category      String
+  city          String
+  slug          String   @unique
+  partnerUrl    String?
+  isPlaceholder Boolean  @default(true)
+  rental        Rental?  @relation(fields: [rentalId], references: [id])
+  rentalId      Int?     @unique
+} 

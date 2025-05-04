@@ -1,0 +1,47 @@
+{
+  "sku": "22110",
+  "slug": "powerdrive-2-48v-club-car-charger-22110",
+  "name": "Powerdrive 2 48V Club Car Charger 22110",
+  "brand": "Lester",
+  "category": "battery chargers",
+  "system": "electrical",
+  "description_html": "<p>The Powerdrive 2 22110 is a charging component designed for electric vehicles. This battery charger is compatible with Club Cars and it is a 48-volt model. The 22110 models of PowerDrive 3 are also known as external battery models.</p><p>The Powerdrive 2 22110 can now be purchased here in Cloud Electric, your one-stop shop for all your electric component needs. Cloud Electric is a leading distributor of electronic components in North America. We take pride in our informative product descriptions, pricing, and shipping speed.</p>",
+  "price": 293.91,
+  "specs": {
+    "ac_voltage": "105 VAC to 128 VAC",
+    "ac_current": "9 A (Maximum)",
+    "dc_voltage": "48V",
+    "dc_current": "13 A",
+    "compatible_make": "CLUB CAR",
+    "model_type": "Charger",
+    "part_number": "22110",
+    "operating_frequency": "60 Hz",
+    "dimensions": {
+      "height": "198 mm",
+      "width": "197 mm",
+      "depth": "165 mm"
+    },
+    "weight_range": "24 kg to 26 kg",
+    "packaging": "IP66"
+  },
+  "cross_reference_numbers": [
+    "CC22110",
+    "CL7010993",
+    "HU4113666",
+    "LE22110",
+    "YP550102782",
+    "YP5501027-82",
+    "22110",
+    "7010993",
+    "4113666",
+    "550102782",
+    "5501027-82"
+  ],
+  "condition": "Remanufactured",
+  "availability": "1-3 days",
+  "image_filename": "powerdrive-2-48v-club-car-charger-22110.webp",
+  "meta_title": "Powerdrive 2 48V Club Car Charger 22110 | Cloud Electric",
+  "meta_description": "Buy remanufactured Powerdrive 2 48V Club Car Charger 22110. Fast shipping from Cloud Electric. Compatible with Club Car electric vehicles.",
+  "google_product_category": "Business & Industrial > Electrical > Batteries",
+  "gtin": null
+}

@@ -1,0 +1,10 @@
+
+> flat-earth-equipment@1.0.0 start
+> next start -p 4000
+
+   ▲ Next.js 15.3.1
+   - Local:        http://localhost:4000
+   - Network:      http://192.168.1.220:4000
+
+ ✓ Starting...
+ ✓ Ready in 153ms

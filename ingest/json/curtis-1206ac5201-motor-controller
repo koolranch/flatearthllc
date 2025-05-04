@@ -1,0 +1,35 @@
+{
+  "sku": "1206AC5201",
+  "slug": "curtis-1206ac5201-motor-controller",
+  "name": "Curtis AC Motor Controller 48V 235A 1206AC5201",
+  "brand": "Curtis",
+  "category": "controllers",
+  "system": "electrical",
+  "description_html": "<p>The Curtis 1206AC‑5201 controller, compared to most controllers in the 1206 series, operates and is compatible with an AC induction motor. These controllers have enhanced torque than stock controllers and are effective in regulating the speed of the vehicle. This controller is a 48‑volt model with a 235‑ampere current limit.</p><p>The Curtis Model 1206AC‑5201 can now be purchased here in Cloud Electric, your one‑stop shop for all your electric component needs. Cloud Electric is a leading distributor of electronic components in North America. We take pride in our informative product descriptions, pricing, and shipping speed.</p>",
+  "price": 466.57,
+  "specs": {
+    "voltage": "48 V",
+    "current_limit": "235 A"
+  },
+  "cross_reference_numbers": [
+    "CL7011526",
+    "CT1206AC-5201",
+    "EZ618374",
+    "HU4142716",
+    "YP550132967",
+    "YP5501329-67",
+    "7011526",
+    "1206AC-5201",
+    "618374",
+    "4142716",
+    "550132967",
+    "5501329-67"
+  ],
+  "condition": "Remanufactured",
+  "availability": "in stock",
+  "image_filename": "curtis-1206ac5201-motor-controller.webp",
+  "meta_title": "Curtis 1206AC5201 Motor Controller",
+  "meta_description": "Buy Curtis 1206AC5201 48V 235A AC Motor Controller. Remanufactured or repair options available. Ships fast from Cloud Electric.",
+  "google_product_category": "Business & Industrial > Industrial Goods > Electric Motors",
+  "gtin": null
+}
